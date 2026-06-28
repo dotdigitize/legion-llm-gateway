@@ -1,0 +1,14 @@
+[project]
+name = "legion-llm-gateway"
+version = "0.1.0"
+description = "High-throughput semantic caching, routing, and observability gateway for local LLM inference."
+authors = [{ name = "Jose Perez" }]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
