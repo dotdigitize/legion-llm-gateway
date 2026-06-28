@@ -1,5 +1,7 @@
 # Legion LLM Gateway
 
+<img width="1916" height="821" alt="jose perez agi engineer Legion LLM gateway" src="https://github.com/user-attachments/assets/e0e54317-5f0a-4cf3-b362-bd55f4db38d4" />
+
 Legion LLM Gateway is a high-throughput semantic caching, routing, and observability gateway for local LLM inference.
 
 Creator and author: Jose Perez  
@@ -16,6 +18,7 @@ The gateway intercepts LLM API requests, computes deterministic local embeddings
 - Semantic cache with cosine similarity matching.
 - Deterministic fallback responses and embeddings when Ollama is disabled.
 - Prompt routing rules for code and general requests.
+
 - MariaDB-ready schema with sample fixtures and seed data.
 - React, TypeScript, Vite, and Tailwind CSS dashboard.
 - Tests that pass without Ollama, MariaDB, or external services.
